@@ -2,7 +2,6 @@ let chaves = Object.keys(localStorage);
 
 for (let i = 0; i < chaves.length; i++) {
     let valor = JSON.parse(localStorage.getItem(chaves[i]));
-    console.log(valor);
     let tabelaTR = document.createElement('tr')
     
     let nomeTD = document.createElement('td')
